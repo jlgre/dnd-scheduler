@@ -123,4 +123,10 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'discord' => [
+        'public_key' => env('DISCORD_PUBLIC_KEY', ''),
+        'app_id' => env('DISCORD_APP_ID', ''),
+        'token' => env('DISCORD_TOKEN', ''),
+    ]
+
 ];
